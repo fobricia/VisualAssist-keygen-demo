@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{f08d1e8b-50b6-48f5-92ba-41451cd1424d}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)BigInteger.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)EllipticCurveGF2m.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GaloisField.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Hasher.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)HasherCrc32Traits.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)HasherMd5Traits.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VisualAssistCryptoConfig.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VisualAssistFieldTraits.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VisualAssistRandomGenerator.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)xstring.hpp" />
+  </ItemGroup>
+</Project>
