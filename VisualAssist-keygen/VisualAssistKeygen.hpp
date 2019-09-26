@@ -19,15 +19,15 @@
 #pragma comment(lib, "ntdll")
 #pragma comment(lib, "bcrypt")
 
-template<typename __ConfigType>
+template<typename __ConfigType, size_t __Idx>
 class VisualAssistKeygen {
 private:
 
     static inline const auto& Order         = __ConfigType::Order;
-    static inline const auto& Sym           = __ConfigType::Custom::Sym[1];
-    static inline const auto& G             = __ConfigType::Custom::G[1];
-    static inline const auto& PrivateKey    = __ConfigType::Custom::PrivateKey[1];
-    static inline const auto& PublicKey     = __ConfigType::Custom::PublicKey[1];
+    static inline const auto& Sym           = __ConfigType::Custom::Sym[__Idx];
+    static inline const auto& G             = __ConfigType::Custom::G[__Idx];
+    static inline const auto& PrivateKey    = __ConfigType::Custom::PrivateKey[__Idx];
+    static inline const auto& PublicKey     = __ConfigType::Custom::PublicKey[__Idx];
 
     struct ECCSignature {
         BigInteger r;

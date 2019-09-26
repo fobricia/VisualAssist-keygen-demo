@@ -60,6 +60,10 @@ see [here](doc/how-to-build.md).
    ```console
    $ VisualAssist-keygen.exe DoubleLabyrinth 1 2050/1/1
    DoubleLabyrinth (1-user license) Support ends 2050.1.1
-   00001M-8E5KE8-2XZ9XH-QYAMVK-K0JGGC-VFDKQV-MPP7QY-PBNQTD-9ZM141-12Z60P-V0JHMQ
+   00001M-8E5KE8-2W995Z-KJJCYP-JAZRJC-47EZ53-BE599Q-CFCYV4-UVFZ5Z-9KGX20-2Q6XQD
+
+   $ VisualAssist-keygen.exe -renew DoubleLabyrinth 1 2050/1/1
+   DoubleLabyrinth (1-user license) Support ends 2050.1.1
+   00001M-8E5KE8-2W99XH-QYANMV-ZXRNQ4-6ETZVQ-WH1AGZ-9RJ7HB-F3JX6J-V8WGFG-0EY3R6
    ```
 
