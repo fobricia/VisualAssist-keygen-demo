@@ -34,6 +34,9 @@ __所以，所有有关 `VisualAssist-patcher` 的内容，在这份repo里都�
    Usage:
        VisualAssist-keygen.exe <username> <license count> <expire date>
 
+           [-renew]           Generate renew-key.
+                              This parameter is optional.
+
            <username>         The username licensed to.
                               This parameter must be specified.
 
